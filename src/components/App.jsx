@@ -1,5 +1,5 @@
 import Profile from 'components/Profile';
-import Statistics from './Statistics/Statistics';
+import Statistics from 'components/Statistics';
 
 import userData from 'data/user.json';
 import dataData from 'data/data.json';
