@@ -1,0 +1,50 @@
+.transactionHistory {
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+    width: 510px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+    text-align: center;    
+   
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.title {
+    height: 50px;
+    font-size: 20px;
+
+    background-color: rgb(97, 186, 140);
+    color:rgb(255, 255, 255);
+    
+    text-transform: uppercase;
+}
+
+.cell {
+    width: 170px;
+}
+
+.cell:not(:last-child) {
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.row {
+    text-align: center;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: grey;
+}
+
+.row:nth-child(even) {
+    background-color: rgba(218, 247, 232, 0.7);
+}
+
+.type,
+.amount {
+    border-right: 1px solid rgb(216, 213, 213);
+}
